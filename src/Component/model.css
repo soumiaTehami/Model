@@ -1,0 +1,25 @@
+.message-box {
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    width: 300px;
+    margin: 50px auto;
+  }
+  
+  .ok-button {
+    background-color:blue;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .ok-button:hover {
+    background-color:blue;
+  }
+  
