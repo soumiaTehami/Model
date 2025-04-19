@@ -1,7 +1,7 @@
 import React from "react";
-import "./model.css";
+import "./Modal.css";
 
-const Model= ({ message, onConfirm }) => {
+const Modal= ({ message, onConfirm }) => {
   return (
     <div className="message-box">
       <p>{message}</p>
@@ -12,4 +12,4 @@ const Model= ({ message, onConfirm }) => {
   );
 }
 
-export default Model;
+export default Modal;
