@@ -1,25 +1,38 @@
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.4); /* Overlay semi-transparent */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999; /* Toujours au-dessus */
+}
+
 .message-box {
-    background-color: white;
-    border: 1px solid #ccc;
-    padding: 20px;
-    text-align: center;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
-    width: 300px;
-    margin: 50px auto;
-  }
-  
-  .ok-button {
-    background-color:blue;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-    border-radius: 5px;
-    font-size: 16px;
-  }
-  
-  .ok-button:hover {
-    background-color:blue;
-  }
-  
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.3);
+  border-radius: 8px;
+  width: 300px;
+  z-index: 1000;
+}
+
+.ok-button {
+  background-color: blue;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-top: 15px;
+}
+
+.ok-button:hover {
+  background-color: darkblue;
+}

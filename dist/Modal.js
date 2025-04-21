@@ -13,10 +13,12 @@ const Modal = _ref => {
     onConfirm
   } = _ref;
   return /*#__PURE__*/_react.default.createElement("div", {
+    className: "modal-overlay"
+  }, /*#__PURE__*/_react.default.createElement("div", {
     className: "message-box"
   }, /*#__PURE__*/_react.default.createElement("p", null, message), /*#__PURE__*/_react.default.createElement("button", {
     className: "ok-button",
     onClick: onConfirm
-  }, "OK"));
+  }, "OK")));
 };
 var _default = exports.default = Modal;
